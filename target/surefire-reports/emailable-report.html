@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">DemoQA Suite</th></tr>
+<tr><td><a href="#t0">Practice Form</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">87,171</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">DemoQA Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Practice Form &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">demoqa.tests.PracticeFormTest</td><td><a href="#m0">tc07_multipleDataSets</a></td><td rowspan="1">1792758610114</td><td rowspan="1">25525</td></tr><tr><th colspan="4">Practice Form &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">demoqa.tests.PracticeFormTest</td><td><a href="#m1">tc01_openPageAndVerifyTitle</a></td><td rowspan="1">1792758582273</td><td rowspan="1">3302</td></tr><tr class="passedeven"><td><a href="#m2">tc02_fillPersonalInfo</a></td><td rowspan="1">1792758586133</td><td rowspan="1">3598</td></tr><tr class="passedeven"><td><a href="#m3">tc03_selectDateOfBirth</a></td><td rowspan="1">1792758590252</td><td rowspan="1">3451</td></tr><tr class="passedeven"><td><a href="#m4">tc04_uploadFile</a></td><td rowspan="1">1792758594376</td><td rowspan="1">3427</td></tr><tr class="passedeven"><td><a href="#m5">tc05_verifyConfirmationModal</a></td><td rowspan="1">1792758598353</td><td rowspan="1">5547</td></tr><tr class="passedeven"><td><a href="#m6">tc07_multipleDataSets</a></td><td rowspan="2">1792758604405</td><td rowspan="2">5165</td></tr><tr class="passedeven"><td><a href="#m7">tc07_multipleDataSets</a></td></tr><tr class="passedeven"><td><a href="#m8">tc08_fullFlow</a></td><td rowspan="1">1792758642086</td><td rowspan="1">26352</td></tr></tbody>
+</table>
+<h2>Practice Form</h2><h3 id="m0">demoqa.tests.PracticeFormTest#tc07_multipleDataSets</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>StudentData[firstName=Tran, lastName=Thi B, email=thib@example.com, gender=Female, mobile=0912345678, day=01, month=January, year=1999, subject=English, hobby=Sports, address=Quan 3, TP.HCM, state=Uttar Pradesh, city=Agra]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: example-modal-sizes-title-lg (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56167}, goog:processID: 25060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56167/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d9ac12689c79716b36e5164a17e67f2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at demoqa.pages.PracticeFormPage.waitForModal(PracticeFormPage.java:131)
+	at demoqa.tests.PracticeFormTest.tc07_multipleDataSets(PracticeFormTest.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">demoqa.tests.PracticeFormTest#tc01_openPageAndVerifyTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">demoqa.tests.PracticeFormTest#tc02_fillPersonalInfo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">demoqa.tests.PracticeFormTest#tc03_selectDateOfBirth</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">demoqa.tests.PracticeFormTest#tc04_uploadFile</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">demoqa.tests.PracticeFormTest#tc05_verifyConfirmationModal</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">demoqa.tests.PracticeFormTest#tc07_multipleDataSets</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>StudentData[firstName=Nguyen, lastName=Van A, email=vana@example.com, gender=Male, mobile=0901234567, day=15, month=May, year=2000, subject=Maths, hobby=Reading, address=Quan 1, TP.HCM, state=NCR, city=Delhi]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">demoqa.tests.PracticeFormTest#tc07_multipleDataSets</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>StudentData[firstName=Le, lastName=Van C, email=vanc@example.com, gender=Other, mobile=0923456789, day=28, month=December, year=2001, subject=Physics, hobby=Music, address=Thu Duc, TP.HCM, state=Haryana, city=Karnal]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">demoqa.tests.PracticeFormTest#tc08_fullFlow</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

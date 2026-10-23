@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoQA Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Practice Form(failed)" verbose="0">
+    <classes>
+      <class name="demoqa.tests.PracticeFormTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tc07_multipleDataSets" invocation-numbers="1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- demoqa.tests.PracticeFormTest -->
+    </classes>
+  </test> <!-- Practice Form(failed) -->
+</suite> <!-- Failed suite [DemoQA Suite] -->

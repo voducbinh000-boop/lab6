@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-23T19:29:41 ICT" name="DemoQA Suite" finished-at="2026-10-23T19:31:08 ICT" duration-ms="87171">
+    <groups>
+    </groups>
+    <test started-at="2026-10-23T19:29:41 ICT" name="Practice Form" finished-at="2026-10-23T19:31:08 ICT" duration-ms="87171">
+      <class name="demoqa.tests.PracticeFormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:41 ICT" name="setUp" finished-at="2026-10-23T19:29:42 ICT" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_openPageAndVerifyTitle()[pri:1, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:42 ICT" name="tc01_openPageAndVerifyTitle" finished-at="2026-10-23T19:29:45 ICT" duration-ms="3302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_openPageAndVerifyTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:45 ICT" name="tearDown" finished-at="2026-10-23T19:29:45 ICT" duration-ms="115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_openPageAndVerifyTitle status=SUCCESS method=PracticeFormTest.tc01_openPageAndVerifyTitle()[pri:1, instance:demoqa.tests.PracticeFormTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:45 ICT" name="setUp" finished-at="2026-10-23T19:29:46 ICT" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc02_fillPersonalInfo()[pri:2, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:46 ICT" name="tc02_fillPersonalInfo" finished-at="2026-10-23T19:29:49 ICT" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_fillPersonalInfo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:49 ICT" name="tearDown" finished-at="2026-10-23T19:29:49 ICT" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_fillPersonalInfo status=SUCCESS method=PracticeFormTest.tc02_fillPersonalInfo()[pri:2, instance:demoqa.tests.PracticeFormTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:49 ICT" name="setUp" finished-at="2026-10-23T19:29:50 ICT" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc03_selectDateOfBirth()[pri:3, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:50 ICT" name="tc03_selectDateOfBirth" finished-at="2026-10-23T19:29:53 ICT" duration-ms="3451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_selectDateOfBirth -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:53 ICT" name="tearDown" finished-at="2026-10-23T19:29:53 ICT" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_selectDateOfBirth status=SUCCESS method=PracticeFormTest.tc03_selectDateOfBirth()[pri:3, instance:demoqa.tests.PracticeFormTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:53 ICT" name="setUp" finished-at="2026-10-23T19:29:54 ICT" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc04_uploadFile()[pri:4, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:54 ICT" name="tc04_uploadFile" finished-at="2026-10-23T19:29:57 ICT" duration-ms="3427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_uploadFile -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:57 ICT" name="tearDown" finished-at="2026-10-23T19:29:57 ICT" duration-ms="95" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_uploadFile status=SUCCESS method=PracticeFormTest.tc04_uploadFile()[pri:4, instance:demoqa.tests.PracticeFormTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:57 ICT" name="setUp" finished-at="2026-10-23T19:29:58 ICT" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc05_verifyConfirmationModal()[pri:5, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:29:58 ICT" name="tc05_verifyConfirmationModal" finished-at="2026-10-23T19:30:03 ICT" duration-ms="5547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_verifyConfirmationModal -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:03 ICT" name="tearDown" finished-at="2026-10-23T19:30:03 ICT" duration-ms="95" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc05_verifyConfirmationModal status=SUCCESS method=PracticeFormTest.tc05_verifyConfirmationModal()[pri:5, instance:demoqa.tests.PracticeFormTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:03 ICT" name="setUp" finished-at="2026-10-23T19:30:04 ICT" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc07_multipleDataSets(demoqa.utils.StudentData)[pri:6, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:04 ICT" name="tc07_multipleDataSets" data-provider="students" finished-at="2026-10-23T19:30:09 ICT" duration-ms="5165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StudentData[firstName=Nguyen, lastName=Van A, email=vana@example.com, gender=Male, mobile=0901234567, day=15, month=May, year=2000, subject=Maths, hobby=Reading, address=Quan 1, TP.HCM, state=NCR, city=Delhi]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_multipleDataSets -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:09 ICT" name="tearDown" finished-at="2026-10-23T19:30:09 ICT" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc07_multipleDataSets status=SUCCESS method=PracticeFormTest.tc07_multipleDataSets(demoqa.utils.StudentData)[pri:6, instance:demoqa.tests.PracticeFormTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:09 ICT" name="setUp" finished-at="2026-10-23T19:30:10 ICT" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc07_multipleDataSets(demoqa.utils.StudentData)[pri:6, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:10 ICT" name="tc07_multipleDataSets" data-provider="students" finished-at="2026-10-23T19:30:35 ICT" duration-ms="25525" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StudentData[firstName=Tran, lastName=Thi B, email=thib@example.com, gender=Female, mobile=0912345678, day=01, month=January, year=1999, subject=English, hobby=Sports, address=Quan 3, TP.HCM, state=Uttar Pradesh, city=Agra]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: example-modal-sizes-title-lg (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56167}, goog:processID: 25060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56167/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d9ac12689c79716b36e5164a17e67f2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: example-modal-sizes-title-lg (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56167}, goog:processID: 25060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56167/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d9ac12689c79716b36e5164a17e67f2
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at demoqa.pages.PracticeFormPage.waitForModal(PracticeFormPage.java:131)
+at demoqa.tests.PracticeFormTest.tc07_multipleDataSets(PracticeFormTest.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_multipleDataSets -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:35 ICT" name="tearDown" finished-at="2026-10-23T19:30:35 ICT" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc07_multipleDataSets status=FAILURE method=PracticeFormTest.tc07_multipleDataSets(demoqa.utils.StudentData)[pri:6, instance:demoqa.tests.PracticeFormTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:35 ICT" name="setUp" finished-at="2026-10-23T19:30:36 ICT" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc07_multipleDataSets(demoqa.utils.StudentData)[pri:6, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:36 ICT" name="tc07_multipleDataSets" data-provider="students" finished-at="2026-10-23T19:30:41 ICT" duration-ms="5157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StudentData[firstName=Le, lastName=Van C, email=vanc@example.com, gender=Other, mobile=0923456789, day=28, month=December, year=2001, subject=Physics, hobby=Music, address=Thu Duc, TP.HCM, state=Haryana, city=Karnal]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_multipleDataSets -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:41 ICT" name="tearDown" finished-at="2026-10-23T19:30:41 ICT" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc07_multipleDataSets status=SUCCESS method=PracticeFormTest.tc07_multipleDataSets(demoqa.utils.StudentData)[pri:6, instance:demoqa.tests.PracticeFormTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:41 ICT" name="setUp" finished-at="2026-10-23T19:30:42 ICT" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc08_fullFlow()[pri:7, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:30:42 ICT" name="tc08_fullFlow" finished-at="2026-10-23T19:31:08 ICT" duration-ms="26352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_fullFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demoqa.tests.PracticeFormTest@43195e57]" started-at="2026-10-23T19:31:08 ICT" name="tearDown" finished-at="2026-10-23T19:31:08 ICT" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc08_fullFlow status=SUCCESS method=PracticeFormTest.tc08_fullFlow()[pri:7, instance:demoqa.tests.PracticeFormTest@43195e57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demoqa.tests.PracticeFormTest -->
+    </test> <!-- Practice Form -->
+  </suite> <!-- DemoQA Suite -->
+</testng-results>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DemoQA_Suite" class="navigator-link">
+              <span class="suite-name border-failed">DemoQA Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DemoQA_Suite" class="navigator-link ">
+                    <span>C:\Users\Admin\Downloads\selenium-demoqa\selenium-demoqa\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DemoQA_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DemoQA_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DemoQA_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DemoQA_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DemoQA_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DemoQA_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DemoQA_Suite" class="hide-methods failed suite-DemoQA_Suite"> (hide)</a> <!-- hide-methods failed suite-DemoQA_Suite -->
+                      <a href="#" panel-name="suite-DemoQA_Suite" class="show-methods failed suite-DemoQA_Suite"> (show)</a> <!-- show-methods failed suite-DemoQA_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-DemoQA_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoQA_Suite" title="demoqa.tests.PracticeFormTest" class="method navigator-link" hash-for-method="tc07_multipleDataSets(StudentData[firstName=Tran, lastName=Thi B, email=thib@example.com, gender=Female, mobile=0912345678...)">tc07_multipleDataSets(StudentData[firstName=Tran, lastName=Thi B, email=thib@example.com, gender=Female, mobile=0912345678...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DemoQA_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DemoQA_Suite" class="hide-methods passed suite-DemoQA_Suite"> (hide)</a> <!-- hide-methods passed suite-DemoQA_Suite -->
+                      <a href="#" panel-name="suite-DemoQA_Suite" class="show-methods passed suite-DemoQA_Suite"> (show)</a> <!-- show-methods passed suite-DemoQA_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-DemoQA_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoQA_Suite" title="demoqa.tests.PracticeFormTest" class="method navigator-link" hash-for-method="tc01_openPageAndVerifyTitle">tc01_openPageAndVerifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoQA_Suite" title="demoqa.tests.PracticeFormTest" class="method navigator-link" hash-for-method="tc02_fillPersonalInfo">tc02_fillPersonalInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoQA_Suite" title="demoqa.tests.PracticeFormTest" class="method navigator-link" hash-for-method="tc03_selectDateOfBirth">tc03_selectDateOfBirth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoQA_Suite" title="demoqa.tests.PracticeFormTest" class="method navigator-link" hash-for-method="tc04_uploadFile">tc04_uploadFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoQA_Suite" title="demoqa.tests.PracticeFormTest" class="method navigator-link" hash-for-method="tc05_verifyConfirmationModal">tc05_verifyConfirmationModal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoQA_Suite" title="demoqa.tests.PracticeFormTest" class="method navigator-link" hash-for-method="tc07_multipleDataSets(StudentData[firstName=Nguyen, lastName=Van A, email=vana@example.com, gender=Male, mobile=0901234567...)">tc07_multipleDataSets(StudentData[firstName=Nguyen, lastName=Van A, email=vana@example.com, gender=Male, mobile=0901234567...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoQA_Suite" title="demoqa.tests.PracticeFormTest" class="method navigator-link" hash-for-method="tc07_multipleDataSets(StudentData[firstName=Le, lastName=Van C, email=vanc@example.com, gender=Other, mobile=0923456789, d...)">tc07_multipleDataSets(StudentData[firstName=Le, lastName=Van C, email=vanc@example.com, gender=Other, mobile=0923456789, d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoQA_Suite" title="demoqa.tests.PracticeFormTest" class="method navigator-link" hash-for-method="tc08_fullFlow">tc08_fullFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DemoQA_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DemoQA_Suite" class="panel DemoQA_Suite">
+          <div class="suite-DemoQA_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">demoqa.tests.PracticeFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc07_multipleDataSets(StudentData[firstName=Tran, lastName=Thi B, email=thib@example.com, gender=Female, mobile=0912345678...)">
+                  </a> <!-- tc07_multipleDataSets(StudentData[firstName=Tran, lastName=Thi B, email=thib@example.com, gender=Female, mobile=0912345678...) -->
+                  <span class="method-name">tc07_multipleDataSets</span>
+                  <span class="parameters">(StudentData[firstName=Tran, lastName=Thi B, email=thib@example.com, gender=Female, mobile=0912345678, day=01, month=January, year=1999, subject=English, hobby=Sports, address=Quan 3, TP.HCM, state=Uttar Pradesh, city=Agra])</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: example-modal-sizes-title-lg (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56167}, goog:processID: 25060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56167/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d9ac12689c79716b36e5164a17e67f2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at demoqa.pages.PracticeFormPage.waitForModal(PracticeFormPage.java:131)
+	at demoqa.tests.PracticeFormTest.tc07_multipleDataSets(PracticeFormTest.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoQA_Suite-class-failed -->
+          <div class="suite-DemoQA_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demoqa.tests.PracticeFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc01_openPageAndVerifyTitle">
+                  </a> <!-- tc01_openPageAndVerifyTitle -->
+                  <span class="method-name">tc01_openPageAndVerifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_fillPersonalInfo">
+                  </a> <!-- tc02_fillPersonalInfo -->
+                  <span class="method-name">tc02_fillPersonalInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc03_selectDateOfBirth">
+                  </a> <!-- tc03_selectDateOfBirth -->
+                  <span class="method-name">tc03_selectDateOfBirth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc04_uploadFile">
+                  </a> <!-- tc04_uploadFile -->
+                  <span class="method-name">tc04_uploadFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc05_verifyConfirmationModal">
+                  </a> <!-- tc05_verifyConfirmationModal -->
+                  <span class="method-name">tc05_verifyConfirmationModal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc07_multipleDataSets(StudentData[firstName=Nguyen, lastName=Van A, email=vana@example.com, gender=Male, mobile=0901234567...)">
+                  </a> <!-- tc07_multipleDataSets(StudentData[firstName=Nguyen, lastName=Van A, email=vana@example.com, gender=Male, mobile=0901234567...) -->
+                  <span class="method-name">tc07_multipleDataSets</span>
+                  <span class="parameters">(StudentData[firstName=Nguyen, lastName=Van A, email=vana@example.com, gender=Male, mobile=0901234567, day=15, month=May, year=2000, subject=Maths, hobby=Reading, address=Quan 1, TP.HCM, state=NCR, city=Delhi])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc07_multipleDataSets(StudentData[firstName=Le, lastName=Van C, email=vanc@example.com, gender=Other, mobile=0923456789, d...)">
+                  </a> <!-- tc07_multipleDataSets(StudentData[firstName=Le, lastName=Van C, email=vanc@example.com, gender=Other, mobile=0923456789, d...) -->
+                  <span class="method-name">tc07_multipleDataSets</span>
+                  <span class="parameters">(StudentData[firstName=Le, lastName=Van C, email=vanc@example.com, gender=Other, mobile=0923456789, day=28, month=December, year=2001, subject=Physics, hobby=Music, address=Thu Duc, TP.HCM, state=Haryana, city=Karnal])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc08_fullFlow">
+                  </a> <!-- tc08_fullFlow -->
+                  <span class="method-name">tc08_fullFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoQA_Suite-class-passed -->
+        </div> <!-- panel DemoQA_Suite -->
+        <div panel-name="test-xml-DemoQA_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\Downloads\selenium-demoqa\selenium-demoqa\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;DemoQA Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Practice Form&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;demoqa.tests.PracticeFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Practice Form --&gt;
+&lt;/suite&gt; &lt;!-- DemoQA Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DemoQA_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DemoQA Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Practice Form (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DemoQA_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DemoQA Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DemoQA_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DemoQA Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DemoQA_Suite');
+function tableData_DemoQA_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc08_fullFlow')
+data.setCell(0, 2, 'demoqa.tests.PracticeFormTest')
+data.setCell(0, 3, 26352);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc07_multipleDataSets')
+data.setCell(1, 2, 'demoqa.tests.PracticeFormTest')
+data.setCell(1, 3, 25525);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc05_verifyConfirmationModal')
+data.setCell(2, 2, 'demoqa.tests.PracticeFormTest')
+data.setCell(2, 3, 5547);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc07_multipleDataSets')
+data.setCell(3, 2, 'demoqa.tests.PracticeFormTest')
+data.setCell(3, 3, 5165);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc07_multipleDataSets')
+data.setCell(4, 2, 'demoqa.tests.PracticeFormTest')
+data.setCell(4, 3, 5157);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc02_fillPersonalInfo')
+data.setCell(5, 2, 'demoqa.tests.PracticeFormTest')
+data.setCell(5, 3, 3598);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc03_selectDateOfBirth')
+data.setCell(6, 2, 'demoqa.tests.PracticeFormTest')
+data.setCell(6, 3, 3451);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc04_uploadFile')
+data.setCell(7, 2, 'demoqa.tests.PracticeFormTest')
+data.setCell(7, 3, 3427);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc01_openPageAndVerifyTitle')
+data.setCell(8, 2, 'demoqa.tests.PracticeFormTest')
+data.setCell(8, 3, 3302);
+window.suiteTableData['DemoQA_Suite']= { tableData: data, tableDiv: 'times-div-DemoQA_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-DemoQA_Suite">
+              </div> <!-- times-div-DemoQA_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DemoQA_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DemoQA Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DemoQA_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DemoQA_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">demoqa.tests.PracticeFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc01_openPageAndVerifyTitle</span>
+                <span class="method-start">786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc01_openPageAndVerifyTitle status=SUCCESS method=PracticeFormTest.tc01_openPageAnd...)</span>
+                <span class="method-start">4088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc02_fillPersonalInfo</span>
+                <span class="method-start">4646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc02_fillPersonalInfo status=SUCCESS method=PracticeFormTest.tc02_fillPersonalInfo(...)</span>
+                <span class="method-start">8244 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8323 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc03_selectDateOfBirth</span>
+                <span class="method-start">8765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc03_selectDateOfBirth status=SUCCESS method=PracticeFormTest.tc03_selectDateOfBirt...)</span>
+                <span class="method-start">12216 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc04_uploadFile</span>
+                <span class="method-start">12889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc04_uploadFile status=SUCCESS method=PracticeFormTest.tc04_uploadFile()[pri:4, ins...)</span>
+                <span class="method-start">16316 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc05_verifyConfirmationModal</span>
+                <span class="method-start">16866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc05_verifyConfirmationModal status=SUCCESS method=PracticeFormTest.tc05_verifyConf...)</span>
+                <span class="method-start">22414 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc07_multipleDataSets(StudentData[firstName=Nguyen, lastName=Van A, email=vana@example.com, gender=Male, mobile=0901234567...)</span>
+                <span class="method-start">22918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc07_multipleDataSets status=SUCCESS method=PracticeFormTest.tc07_multipleDataSets(...)</span>
+                <span class="method-start">28085 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28167 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc07_multipleDataSets(StudentData[firstName=Tran, lastName=Thi B, email=thib@example.com, gender=Female, mobile=0912345678...)</span>
+                <span class="method-start">28627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc07_multipleDataSets status=FAILURE method=PracticeFormTest.tc07_multipleDataSets(...)</span>
+                <span class="method-start">54155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc07_multipleDataSets(StudentData[firstName=Le, lastName=Van C, email=vanc@example.com, gender=Other, mobile=0923456789, d...)</span>
+                <span class="method-start">54924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc07_multipleDataSets status=SUCCESS method=PracticeFormTest.tc07_multipleDataSets(...)</span>
+                <span class="method-start">60081 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc08_fullFlow</span>
+                <span class="method-start">60599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc08_fullFlow status=SUCCESS method=PracticeFormTest.tc08_fullFlow()[pri:7, instanc...)</span>
+                <span class="method-start">86951 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
